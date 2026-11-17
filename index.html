@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Validador de CEP</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Verificador de CEP</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <label for="cep">CEP</label>
+            <div class="input-group">
+                <input type="text" id="cep" placeholder="Ex:01001000" maxlength="8">
+                <button onclick="ValidarCEP()">Verificar</button>
+            </div>
+            <div id="resultado"></div>
+        </div>
+    </div>
+</body>
+</html>
