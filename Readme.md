@@ -1,36 +1,38 @@
-# 📍 Validador e Buscador de CEP
+# 📍 Buscador e Validador de CEP
 
-#Link para usar:
-https://marcusjrofc.github.io/Valida_CEP/
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+</p>
 
-Uma aplicação web simples e responsiva que permite ao utilizador procurar por um Código de Endereçamento Postal (CEP) brasileiro e devolve automaticamente os dados do endereço (Rua, Cidade e Estado).
+Uma aplicação web simples, rápida e responsiva que permite ao usuário buscar por qualquer CEP (Código de Endereçamento Postal) do Brasil, retornando automaticamente os dados de endereço completo na tela.
+
+🌐 **Acesse o projeto online:** [Clique aqui para testar!](https://marcusjrofc.github.io/Valida_CEP/)
+
+---
 
 ## 🚀 Funcionalidades
 
-- Validação da entrada de dados (apenas CEPs com exatamente 8 números).
-- Consumo de API externa de forma assíncrona.
-- Tratamento de erros para CEPs inexistentes ou falhas de rede.
-- Renderização dinâmica dos resultados no ecrã (DOM) via JavaScript.
+- ✨ **Preenchimento Dinâmico:** Retorna automaticamente Rua, Bairro, Cidade e Estado.
+- 🛡️ **Validação Inteligente:** Limpa caracteres especiais e aceita apenas entradas com exatamente 8 dígitos.
+- ⚡ **Consumo de API Externa:** Requisições assíncronas modernas.
+- ⚠️ **Tratamento de Erros:** Exibe alertas amigáveis caso o CEP digitado não exista ou haja falhas de rede.
+- 📱 **Interface Responsiva:** Design limpo, focado na experiência do usuário em qualquer dispositivo.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5:** Estrutura semântica da página.
-- **CSS3:** Estilização do cartão, inputs e botões, focando numa interface limpa e moderna.
-- **JavaScript (ES6+):** Lógica de validação, manipulação do DOM e requisições assíncronas (`async/await` e `fetch`).
-- **[ViaCEP API](https://viacep.com.br/):** API pública e gratuita para consulta de CEPs.
+O projeto foi construído utilizando apenas o ecossistema base da web, sem frameworks adicionais:
 
-## ⚙️ Como executar o projeto
+- **HTML5:** Estruturação semântica da página.
+- **CSS3:** Estilização dos cards, inputs e botões com foco em uma interface limpa e amigável (UI/UX).
+- **JavaScript (ES6+):** Lógica de validação, manipulação direta do DOM e requisições HTTP (`async/await` e `fetch API`).
+- **[ViaCEP API](https://viacep.com.br/):** API pública e gratuita utilizada para a consulta dos dados de endereço.
 
-1. Faça o clone deste repositório ou descarregue os ficheiros.
-2. Abra o ficheiro `index.html` diretamente no seu navegador web.
-3. *Em alternativa*, se estiver a utilizar o VS Code, pode abrir o projeto com a extensão **Live Server** para ver as alterações em tempo real.
+## ⚙️ Como executar o projeto localmente
 
-## 💡 Como funciona
+Se desejar rodar o projeto na sua própria máquina, o processo é bem simples:
 
-1. O utilizador digita um CEP válido (ex: `01001000`).
-2. O sistema remove quaisquer caracteres que não sejam números e valida se existem exatamente 8 dígitos.
-3. É feita uma requisição à API do ViaCEP.
-4. Se o CEP for encontrado, o JavaScript cria dinamicamente os campos com a Rua, Cidade e Estado e exibe-os na página. Em caso de erro, é apresentado um alerta.
-
----
-Desenvolvido como projeto prático de consumo de APIs e manipulação de DOM com JavaScript.
+1. Faça o clone deste repositório ou baixe os arquivos (Download ZIP):
+   ```bash
+   git clone [https://github.com/marcusjrofc/Valida_CEP.git](https://github.com/marcusjrofc/Valida_CEP.git)
