@@ -14,8 +14,9 @@ Uma aplicação web simples, rápida e responsiva que permite ao usuário buscar
 
 ## 🚀 Funcionalidades
 
-- ✨ **Preenchimento Dinâmico:** Retorna automaticamente Rua, Cidade e Estado.
-- 🛡️ **Validação Inteligente:** Limpa caracteres especiais e aceita apenas entradas com exatamente 8 dígitos.
+- ✨ **Preenchimento Dinâmico:** Retorna automaticamente Rua, Bairro, Cidade, Estado e DDD.
+- 🎭 **Máscara em Tempo Real:** Formata o CEP automaticamente (00000-000) enquanto o usuário digita.
+- 🛡️ **Validação Inteligente:** Limpa caracteres especiais, valida o formato correto e garante o envio correto dos dados para a API.
 - ⚡ **Consumo de API Externa:** Requisições assíncronas modernas.
 - ⚠️ **Tratamento de Erros:** Exibe alertas amigáveis caso o CEP digitado não exista ou haja falhas de rede.
 - 📱 **Interface Responsiva:** Design limpo, focado na experiência do usuário em qualquer dispositivo.
@@ -26,7 +27,7 @@ O projeto foi construído utilizando apenas o ecossistema base da web, sem frame
 
 - **HTML5:** Estruturação semântica da página.
 - **CSS3:** Estilização dos cards, inputs e botões com foco em uma interface limpa e amigável (UI/UX).
-- **JavaScript (ES6+):** Lógica de validação, manipulação direta do DOM e requisições HTTP (`async/await` e `fetch API`).
+- **JavaScript (ES6+):** Lógica de validação, manipulação direta do DOM, eventos em tempo real (`addEventListener`) e requisições HTTP (`async/await` e `fetch API`).
 - **[ViaCEP API](https://viacep.com.br/):** API pública e gratuita utilizada para a consulta dos dados de endereço.
 
 ## ⚙️ Como executar o projeto localmente
