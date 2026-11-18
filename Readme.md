@@ -1,5 +1,8 @@
 # 📍 Validador e Buscador de CEP
 
+#Link para usar:
+https://marcusjrofc.github.io/Valida_CEP/
+
 Uma aplicação web simples e responsiva que permite ao utilizador procurar por um Código de Endereçamento Postal (CEP) brasileiro e devolve automaticamente os dados do endereço (Rua, Cidade e Estado).
 
 ## 🚀 Funcionalidades
