@@ -14,7 +14,7 @@ Uma aplicação web simples, rápida e responsiva que permite ao usuário buscar
 
 ## 🚀 Funcionalidades
 
-- ✨ **Preenchimento Dinâmico:** Retorna automaticamente Rua, Bairro, Cidade e Estado.
+- ✨ **Preenchimento Dinâmico:** Retorna automaticamente Rua, Cidade e Estado.
 - 🛡️ **Validação Inteligente:** Limpa caracteres especiais e aceita apenas entradas com exatamente 8 dígitos.
 - ⚡ **Consumo de API Externa:** Requisições assíncronas modernas.
 - ⚠️ **Tratamento de Erros:** Exibe alertas amigáveis caso o CEP digitado não exista ou haja falhas de rede.
