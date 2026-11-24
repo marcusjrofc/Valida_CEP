@@ -8,7 +8,7 @@
 
 Uma aplicação web simples, rápida e responsiva que permite ao usuário buscar por qualquer CEP (Código de Endereçamento Postal) do Brasil, retornando automaticamente os dados de endereço completo na tela.
 
-🌐 **Acesse o projeto online:** [Clique aqui para testar!](https://marcusjrofc.github.io/Valida_CEP/)
+🌐 **Acesse o projeto online:** [Clique aqui para testar!](https://validacep.vercel.app)
 
 ---
 
